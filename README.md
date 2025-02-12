@@ -12,4 +12,23 @@ Welcome to **FineTuneLab**, an open-source repository dedicated to fine-tuning m
 1. Clone the repository:
    ```bash
    git clone https://github.com/Maplab-Inc/FineTuneLab.git
+
+### When Do You Need Fine-Tuning?
+
+#### ✅ Fine-Tuning is Needed When:
+- Your task is domain-specific (e.g., medical, legal, financial).
+- You need specific output formats or instructions.
+- Pre-trained models perform poorly on your task.
+- You have enough labeled data.
+
+#### ❌ Fine-Tuning is Not Needed When:
+- Pre-trained models already perform well.
+- You can use prompt engineering or few-shot learning.
+- You have limited computational resources.
+- Your task is too general.
+
+#### 🔄 Alternatives to Fine-Tuning:
+- Prompt engineering.
+- Few-shot or zero-shot learning.
+- Feature extraction with simpler models.
   
